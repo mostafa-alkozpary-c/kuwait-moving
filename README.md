@@ -3,6 +3,8 @@
 حل برمجي متكامل ومحترف (Full-Stack Solution) مخصص لخدمات **نقل وفك وتركيب وتغليف الأثاث في دولة الكويت**، مبني بأحدث التقنيات:
 - **الواجهة الأمامية (Frontend):** Angular 19 (Standalone Components + TypeScript + CSS3 متجاوب + تصميم RTL عربي متكامل مع خط Cairo).
 - **الواجهة الخلفية (Backend):** ASP.NET Core Web API (.NET 10 / C#) مع دعم OpenAPI و CORS.
+- **رابط المستودع على GitHub:** [https://github.com/mostafa-alkozpary-c/kuwait-moving](https://github.com/mostafa-alkozpary-c/kuwait-moving)
+- **الرابط المباشر للعميل (Live URL):** [https://mostafa-alkozpary-c.github.io/kuwait-moving/](https://mostafa-alkozpary-c.github.io/kuwait-moving/)
 - **رقم الهاتف المعتمد:** `60055108` (الرقم الدولي: `+96560055108`).
 - **رابط الواتساب المباشر:** يفتح محادثة فورية جاهزة بنص الطلب والتكلفة التقديرية.
 
