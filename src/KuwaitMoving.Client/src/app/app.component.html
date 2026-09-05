@@ -1,0 +1,17 @@
+<div class="app-container">
+  <app-navbar [company]="company"></app-navbar>
+
+  <main>
+    <app-hero [company]="company"></app-hero>
+    <app-services [services]="services" [company]="company"></app-services>
+    <app-why-us [company]="company"></app-why-us>
+    <app-areas [areas]="areas" [company]="company"></app-areas>
+    <app-quote-calculator [company]="company" [areas]="areas"></app-quote-calculator>
+    <app-gallery></app-gallery>
+    <app-reviews [reviews]="reviews"></app-reviews>
+    <app-faq [company]="company"></app-faq>
+  </main>
+
+  <app-footer [company]="company"></app-footer>
+  <app-floating-action-bar [company]="company"></app-floating-action-bar>
+</div>
