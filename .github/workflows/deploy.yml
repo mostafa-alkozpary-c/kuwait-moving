@@ -37,7 +37,9 @@ jobs:
 
       - name: Build Angular for GitHub Pages
         working-directory: src/KuwaitMoving.Client
-        run: npx ng build --base-href ./${{ github.event.repository.name }}/
+        run: |
+          npx ng build --base-href /kuwait-moving/
+          cp dist/kuwait-moving-client/browser/index.html dist/kuwait-moving-client/browser/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
